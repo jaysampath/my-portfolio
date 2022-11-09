@@ -11,24 +11,30 @@ export const PROJECTS = [
     name: "Fastmart",
     technologyUsed: "Spring Boot, ReactJS, Git, AWS and Heroku",
     description:
-      "Fastmart is an full stack application which is used for shopping vareity of products. Features a login/Signup protal, cart, ordering items, OTP verification while signing up and resetting password. ",
-    url: "https://fastmart.vercel.app/",
+      "Fastmart is a full stack application which is used to browse and shop variety of products. This application features login/Signup protal, cart, placing items, OTP verification while signing up and resetting password, searching products etc. ",
+    url: "https://github.com/jaysampath/FastmartBackend",
+    deployed : true,
+    website : "https://fastmart.vercel.app/"
   },
   {
     image: FOODORDER,
-    name: "Food Order App",
+    name: "ReactMeals",
     technologyUsed: "ReactJS, Firebase, HTML and CSS",
     description:
-      "Food Order App is a full stack application built using ReactJS which is used for ordering food items",
-    url: "https://food-order-app-theta.vercel.app",
+      "ReactMeals is a full stack application built using ReactJS which is used for ordering food items.",
+    url: "https://github.com/jaysampath/Food-Order-App",
+    deployed: true,
+    website : "https://food-order-app-theta.vercel.app"
   },
   {
     image: WEATHER,
     name: "Weather Scraper",
     technologyUsed: "PHP, HTML and CSS",
     description:
-      "My weather scraper is a responsive web application which is used to know the weather condition of a city built using php.",
-    url: "https://my-weather-scraper.herokuapp.com/",
+      "Weather scraper is a responsive web application which is used to know the weather condition of a city built using php.",
+    url: "https://github.com/jaysampath/My-Weather-Scraper-using-php",
+    deployed: true,
+    website: "https://my-weather-scraper.herokuapp.com/"
   },
   {
     image: TWITTER,
@@ -37,6 +43,8 @@ export const PROJECTS = [
     description:
       "Cloned the basic functionality of the twitter using php and MySQL. The application implemented the functionalities like Posting and Searching tweets, following and unfollowing, public profiles and search profiles, public tweets etc.",
     url: "https://github.com/jaysampath/Twitter-clone-using-php",
+    deployed: false,
+    website : ""
   },
   {
     image: TEXTPRO,
@@ -45,14 +53,18 @@ export const PROJECTS = [
     description:
       "Textpro app is a text editor which features Flesh Index, Generate Markov Text, Edit Distance, Spelling Suggestion and Load Text.  ",
     url: "https://github.com/jaysampath/TextProApp",
+    deployed: false,
+    website : ""
   },
   {
     image: EMPLOYEE,
     name: "Employee App",
     technologyUsed: "Spring Boot. ReactJs, HTML/CSS and Vercel",
     description:
-      "Employee app is a full stack application where administrators can securly store and maintain employee's details",
+      "EmployeeApp is a full stack application where administrators can securly store and maintain employee's details",
     url: "https://employee-app-on-vercel.vercel.app",
+    deployed: false,
+    website : ""
   },
 ];
 

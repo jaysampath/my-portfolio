@@ -27,6 +27,7 @@ function About() {
             <img src={developer} alt="about" className="image-style" />
           </Col>
         </Row>
+
         <Row className="skill-tools-wrapper">
           <Col className="skill-wrapper">
             <h1 className="project-heading">
@@ -40,6 +41,9 @@ function About() {
               />
             ))}
           </Col>
+        </Row>
+
+        <Row className="tools-i-use">
           <Col className="skill-wrapper">
             <h1 className="project-heading">
               <strong className="purple">Tools</strong> I use

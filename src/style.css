@@ -786,6 +786,7 @@ html {
 }
 .view-project-button {
   background-color: #343e47 !important;
+  margin-right: 0.5rem;
 }
 
 .view-project-button:hover {
@@ -818,6 +819,12 @@ html {
 
 .skill-tools-wrapper {
   flex-direction: row;
+  margin-bottom: 2rem;
+  border-radius: 25%;
+}
+
+.tools-i-use {
+  text-align: center;
 }
 
 @media (max-width: 767px) {

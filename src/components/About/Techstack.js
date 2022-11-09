@@ -5,7 +5,7 @@ import Rating from "react-rating"
 function Techstack(props) {
   return (
     <>
-    <Row style={{ justifyContent: "left", paddingBottom: "10px" }}>
+    <Row style={{ justifyContent: "space-around", paddingBottom: "10px" }}>
        <Col className="skill-name" xs={4}>
         {props.name}
       </Col>

@@ -23,10 +23,13 @@ function Projects() {
                 title={project.name}
                 description={project.description}
                 link={project.url}
+                deployed={project.deployed}
+                website={project.website}
               />
             </Col>
           ))}
         </Row>
+        <p>Find more projects  <a href="https://github.com/jaysampath?tab=repositories" style={{fontStyle: "bold"}}> here</a> </p>
       </Container>
     </Container>
   );
