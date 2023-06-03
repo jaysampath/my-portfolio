@@ -1,9 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import developer from "../../Assets/developer.png";
-import { SKILLS, TOOLS } from "../../Constants";
+import Skills from "./Skills.js";
 
 function About() {
   return (
@@ -31,28 +30,9 @@ function About() {
         <Row className="skill-tools-wrapper">
           <Col className="skill-wrapper">
             <h1 className="project-heading">
-              Professional <strong className="purple">Skillset </strong>
+               <strong className="purple"> Tools and Technologies </strong>
             </h1>
-            {SKILLS.map((skill, index) => (
-              <Techstack
-                name={skill.name}
-                initialRating={skill.initialRating}
-                key={index}
-              />
-            ))}
-          </Col>
-        </Row>
-
-        <Row className="tools-i-use">
-          <Col className="skill-wrapper">
-            <h1 className="project-heading">
-              <strong className="purple">Tools</strong> I use
-            </h1>
-            {TOOLS.map((tool, index) => (
-              <ul key={index} className="tool-name">
-                <li>{tool}</li>
-              </ul>
-            ))}
+            <Skills />
           </Col>
         </Row>
       </Container>
