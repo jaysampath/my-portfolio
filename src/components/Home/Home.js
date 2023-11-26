@@ -22,22 +22,16 @@ function Home() {
                 I'M
                 <strong className="main-name"> Jaya Sampath</strong>
               </h1>
-
-              <p className="heading-description blockquote">
-                Enthusiastic Software Engineer with strong professional working
-                experience in Java, Spring boot, MongoDB, ReactJS and AWS. Proud
-                Team player primarily focuses on achieving project objectives
-                with speed and accuracy. Self learner with a passion for
-                learning new technologies.
-              </p>
-
+            </Col>
+            <Col md={5}>
+              <img src={myImg} className="profile-pic" alt="avatar" />
+            </Col>
+          </Row>
+          <Row>
+            <Col>
               <div className="heading-type">
                 <TypeWriter />
               </div>
-            </Col>
-
-            <Col md={5}>
-              <img src={myImg} className="profile-pic" alt="avatar" />
             </Col>
           </Row>
         </Container>
@@ -47,12 +41,15 @@ function Home() {
           <Row>
             <Col md={12} className="home-about-social">
               <h1>Get in Touch</h1>
+              <p className="connect-paragraph">
+                {" "} I'm always eager to collaborate on exciting projects and
+                contribute my skills to innovative teams. If you're looking for
+                a Full Stack Developer who is not only technically proficient
+                but also passionate about creating exceptional user experiences,
+                I would love to connect.
+                </p>
               <p>
-                {" "}
-                Whether you want to get in touch, or talk about a project
-                collaboration.
-                <br />
-                <strong>Feel free to connect with me</strong>
+                  <strong>Feel free to connect with me</strong>
               </p>
               <SocialMedia />
             </Col>

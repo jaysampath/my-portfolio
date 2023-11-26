@@ -9,7 +9,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am{" "}
             <span className="purple">Jaya Sampath Kolisetty </span>
-            from <span className="purple"> Guntur, India.</span>
+            from <span className="purple"> India.</span>
             <br />
             Software Engineer who have a great passion for learning
             technologies.

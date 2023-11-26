@@ -7,7 +7,7 @@ function TypeWriter() {
       options={{
         strings: [
           "Full Stack Developer",
-          "Software Engineer",
+          "Open Source Enthusiast",
           "Cloud Enthusiast",
         ],
         autoStart: true,

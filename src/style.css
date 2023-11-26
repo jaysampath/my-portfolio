@@ -801,7 +801,7 @@ html {
 }
 .profile-pic {
   border-radius: 50%;
-  height: 70%;
+  height: 80%;
   width: 65%;
   margin-top: 12%;
   margin-left: 25%;
@@ -831,4 +831,10 @@ html {
   .skill-tools-wrapper{
     flex-direction: column;
   }
+}
+
+.connect-paragraph {
+  text-align: center !important;
+  width: 40rem;
+  margin-left: 20%;
 }
