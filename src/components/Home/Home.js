@@ -1,62 +1,53 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/sampath.png";
-import SocialMedia from "../SocialMedia";
+import developer from "../../Assets/developer.png";
 import TypeWriter from "./TypeWriter";
 
 function Home() {
+  const myStyle = {
+    backgroundImage: `url(${developer})`,
+    height: "100vh",
+    marginTop: "-70px",
+    fontSize: "50px",
+    backgroundSize: "cover",
+    backgroundRepeat: "no-repeat",
+  };
+  const overlayStyle = {
+    content: '""',
+    position: "absolute",
+    top: 0,
+    right: 0,
+    bottom: 0,
+    left: 0,
+    background: "rgba(0, 0, 0, 0.3)",
+    pointerEvents: "none",
+  };
+  const textStyle = {
+    position: "absolute",
+    top: "50%", 
+    left: "20%", 
+    transform: "translate(-50%, -50%)",
+    color: "black", 
+    fontSize: "15px",
+  };
   return (
-    <section>
-      <Container fluid className="home-section" id="home">
-        <Container className="home-content">
-          <Row>
-            <Col md={6} className="home-header">
-              <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi There!{" "}
-                <span className="wave" role="img" aria-labelledby="wave">
-                  👋🏻
-                </span>
-              </h1>
+    <div style={myStyle}>
+      <div style={overlayStyle}></div>
+      <div style={textStyle}>
+        <h1 style={{ paddingBottom: 15 }}>
+          Hi There!{" "}
+          <span className="wave" role="img" aria-labelledby="wave">
+            👋🏻
+          </span>
+        </h1>
 
-              <h1 className="heading-name">
-                I'M
-                <strong className="main-name"> Jaya Sampath</strong>
-              </h1>
-            </Col>
-            <Col md={5}>
-              <img src={myImg} className="profile-pic" alt="avatar" />
-            </Col>
-          </Row>
-          <Row>
-            <Col>
-              <div className="heading-type">
-                <TypeWriter />
-              </div>
-            </Col>
-          </Row>
-        </Container>
-      </Container>
-      <Container fluid className="home-about-section" id="about">
-        <Container>
-          <Row>
-            <Col md={12} className="home-about-social">
-              <h1>Get in Touch</h1>
-              <p className="connect-paragraph">
-                {" "} I'm always eager to collaborate on exciting projects and
-                contribute my skills to innovative teams. If you're looking for
-                a Full Stack Developer who is not only technically proficient
-                but also passionate about creating exceptional user experiences,
-                I would love to connect.
-                </p>
-              <p>
-                  <strong>Feel free to connect with me</strong>
-              </p>
-              <SocialMedia />
-            </Col>
-          </Row>
-        </Container>
-      </Container>
-    </section>
+        <h1>
+          I'M <strong> Jaya Sampath</strong>{" "}
+        </h1>
+        <div className="heading-type">
+          <TypeWriter />
+        </div>
+      </div>
+    </div>
   );
 }
 
