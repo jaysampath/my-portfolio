@@ -1,5 +1,5 @@
 import React from "react";
-import developer from "../../Assets/developer.png";
+import developer from "../../Assets/images.jpg";
 import TypeWriter from "./TypeWriter";
 
 function Home() {
@@ -24,10 +24,10 @@ function Home() {
   const textStyle = {
     position: "absolute",
     top: "50%", 
-    left: "20%", 
+    left: "30%", 
     transform: "translate(-50%, -50%)",
-    color: "black", 
-    fontSize: "15px",
+    color: "white", 
+    fontSize: "20px",
   };
   return (
     <div style={myStyle}>
@@ -43,7 +43,7 @@ function Home() {
         <h1>
           I'M <strong> Jaya Sampath</strong>{" "}
         </h1>
-        <div className="heading-type">
+        <div className="heading-type" style={{ color: "white" }}>
           <TypeWriter />
         </div>
       </div>
