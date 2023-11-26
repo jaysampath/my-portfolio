@@ -1,5 +1,5 @@
 import React from "react";
-import developer from "../../Assets/images.jpg";
+import developer from "../../Assets/home-background.jpg";
 import TypeWriter from "./TypeWriter";
 
 function Home() {
