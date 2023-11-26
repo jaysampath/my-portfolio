@@ -7,18 +7,20 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am{" "}
-            <span className="purple">Jaya Sampath Kolisetty </span>
-            from <span className="purple"> India.</span>
+            Hello! I'm <span className="purple">Jaya Sampath Kolisetty </span>
+            from <span className="purple"> India, </span>
+            a passionate and versatile Full Stack Developer dedicated to
+            delivering high-quality software solutions. With a keen eye for
+            detail and a commitment to excellence, I thrive in turning complex
+            ideas into robust, user-friendly applications.
             <br />
-            Software Engineer who have a great passion for learning
-            technologies.
             <br />
-            Enthusiastic Software Engineer with background working
-            productively in dynamic environments. Full Stack Developer with
-            experience in creating and deploying websites with Java, Spring
-            Boot, ReactJS, Github and AWS. Proud team player focused on
-            achieving project objectives with speed and accuracy.
+            I bring more than 2 years of experience in the world of software
+            development, specializing in both front-end and back-end
+            technologies. My journey began with a fascination for
+            problem-solving and a love for creating efficient, scalable systems.
+            Over the years, I've built dynamic and interactive web applications.
+            <br />
             <br />
             Apart from coding, some other activities that I love to do!
           </p>

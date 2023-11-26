@@ -771,11 +771,12 @@ html {
   margin-left: 10%;
 }
 .skill-wrapper {
-  border-right: 1px solid #414141;
   box-shadow: 0 4px 5px 3px rgba(59, 56, 59, 0.459) !important;
+  border-radius: 10px;
   background-color: transparent !important;
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
+  padding-top: 15px;
 }
 .download-button {
   background-color: #343e47 !important;
