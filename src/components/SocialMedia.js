@@ -21,7 +21,7 @@ function SocialMedia() {
       </li>
       <li className="social-icons">
         <a
-          href="https://www.linkedin.com/in/jaya-sampath-kolisetty/"
+          href="#"
           target="_blank"
           rel="noreferrer"
           className="icon-colour  home-social-icons"
@@ -41,7 +41,7 @@ function SocialMedia() {
       </li>
       <li className="social-icons">
         <a
-          href="mailto:jayasampath111@gmail.com"
+          href="#"
           target="_blank"
           rel="noreferrer"
           className="icon-colour home-social-icons"
